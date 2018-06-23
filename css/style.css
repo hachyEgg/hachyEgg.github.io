@@ -1,0 +1,1243 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-weight: 300;
+}
+
+/* Common */
+
+.heartbeat-container {
+    text-align: center;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heartbeat-container.short {
+    height: 230px;
+}
+
+.heartbeat-container img {
+    height: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    background-color: #E9F2F5;
+}
+.content h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text-color-dark-navy {
+    color: #173151;
+}
+
+
+.text-color-blue-highlight {
+    color: #00A6DD;
+}
+p.text-color-blue-highlight {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.text-color-grey {
+    color: #58595B;
+}
+
+    /* btn theme */
+.btn-white.btn:not(.btn-xs):not(.btn-sm):not(.btn-lg) {
+    padding: 12px 24px;
+}
+
+.btn-white {
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: medium none ! important;
+    text-transform: uppercase ! important;
+}
+
+.btn-white, .btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .btn-white.focus, .btn-white:active, .btn-white:focus, .btn-white:hover, .open > .dropdown-toggle.btn-white {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea ! important;
+    color: #4c5667;
+}
+
+.btn-white:hover, .btn-white:hover:hover, .btn-white:focus:hover, .btn-white:active:hover, .btn-white.active:hover, .btn-white.focus:hover, .btn-white:active:hover, .btn-white:focus:hover, .btn-white:hover:hover, .open > .dropdown-toggle.btn-white:hover {
+    background-color: #f9f9f9;
+}
+    /* btn theme end*/
+
+    /* social icon*/
+.social-icons ul {
+    padding: 0;
+}
+
+.social-icons li {
+    float: left;
+    list-style: none;
+}
+
+.social-icons.social-icons-light li a {
+    background: #fff;
+    color: #333;
+    border: 1px solid #eee;
+}
+
+.social-icons li a {
+    float: left;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 8px 8px 0;
+    border-radius: 4px;
+    border: 0;
+    background: transparent;
+    color: #333;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.social-icons.social-icons-colored .social-facebook a, .social-icons.social-icons-colored-hover .social-facebook a:hover {
+    background-color: #5d82d1;
+}
+
+.social-icons.social-icons-colored a, .social-icons.social-icons-colored-hover a:hover {
+    color: #fff;
+    border: 0;
+}
+
+.social-icons.social-icons-colored .social-twitter a, .social-icons.social-icons-colored-hover .social-twitter a:hover {
+    background-color: #40bff5;
+}
+
+.social-icons.social-icons-colored a, .social-icons.social-icons-colored-hover a:hover {
+    color: #fff;
+    border: 0;
+}
+    /* social icon end*/
+
+/* Common End */
+
+/* Header */
+
+.main-logo {
+    width: 150px;
+}
+
+.navbar-brand {
+	padding: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.navbar {
+    background-color:rgba(255,213,750.5);
+    color: #fff;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.fixed {
+    background-color:rgb(255,213,75,1);
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(0,0,0,0.1);
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #000000
+}
+
+.navbar-inverse .navbar-nav>li>a.selected {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar-inverse .navbar-nav>li>a {
+        -webkit-transition: padding 0.3s ease;
+        -moz-transition: padding 0.3s ease;
+        transition: padding 0.3s ease;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16px;
+    }
+
+    .main-logo {
+        -webkit-transition: width 0.3s ease;
+        -moz-transition: width 0.3s ease;
+        transition: width 0.3s ease;
+        width: 250px;
+    }
+
+    .navbar.fixed .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar.fixed .main-logo {
+        width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-inverse .navbar-nav>li>a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+}
+
+/* Header End */
+
+.banner {
+    
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banner.career, .banner.posting {
+    background-color: transparent;
+}
+
+.banner-background-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.partners.content {
+    background-color: #ffffff;
+}
+.partners .heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.partners .heading .bold {
+    font-weight: 500;
+}
+
+.partners .heading p {
+    font-weight: 300;
+}
+
+.partners .logos-box-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.partners .logos-box-container.last {
+    margin-bottom: 90px;
+}
+
+.partners .logos-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 720px;
+}
+
+.partners .logo-container {
+    width: 230px;
+    height: 90px;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.partners .logo-container a,
+.partners .logo-container img {
+     position: relative;
+     max-width: 100%;
+     max-height: 100%;
+}
+
+
+/* Footer */
+.footer-content {
+	
+    background-color:rgb(255,213,75)
+}
+
+.copyright-text {
+    text-align: center;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* Footer End*/
+
+/* ======================= Product Page ======================= */
+.product-banner .banner {
+    display: flex;
+    justify-content: center;
+}
+
+.heartbeat-banner {
+	margin-top: 50px;
+    max-width: 774px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.heart-watch {
+    text-align: center;
+    position: relative;
+}
+
+.heart-watch h1 {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.heart-watch p {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.heart-watch .watch-img {
+
+    height: 250px;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: -170px;
+}
+
+.signup-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signup-form button,
+.signup-form .input-group-addon {
+    border-color: #E4E4E4;
+    background-color: #E4E4E4;
+    color: #00A6DD;
+    font-weight: 500;
+}
+
+.signup-form .input-group-addon {
+    font-size: 20px;
+}
+
+.signup-form button:hover {
+    color: #00A6DD;
+}
+
+.signup-form input {
+    border-color: #E4E4E4 !important;
+}
+
+.feature-wrapper {
+    position: relative;
+}
+
+.feature .col {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.feature .col:last-of-type {
+    margin-bottom: 60px;
+}
+
+.feature .img-place-holder {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.feature img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.feature h4 {
+    margin-top: 15px;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-indicators li {
+    background-color: #C2C2C2;
+    border-color: #C2C2C2;
+}
+
+.carousel-indicators li.active,
+.carousel-indicators li.hovered, 
+.carousel-indicators li:hover{
+    background-color: #1C4861;
+    border-color: #1C4861;
+}
+
+@media (min-width: 992px) {
+
+    .feature .col:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .feature.content {
+        min-height: 700px;
+    }
+
+    .feature .fluid-bg {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        bottom: 0px;
+        background-color: #E6E6E6;
+        height: 330px;
+    }
+
+    .feature-img-default {
+        -webkit-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        opacity: 1;
+    }
+
+    .feature-img-selected {
+        -webkit-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+        opacity: 0;
+    }
+
+    .feature .active .feature-img-default,
+    .feature .hovered .feature-img-default {
+        opacity: 0;
+    }
+
+    .feature .active .feature-img-selected,
+    .feature .hovered .feature-img-selected {
+        opacity: 1;
+    }
+
+    .feature p {
+        -webkit-transition: opacity 0.3s ease;
+        -moz-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+    }
+
+    .feature .active p,
+    .feature .hovered p 
+    {
+        opacity: 1;
+    }
+
+    .carousel-indicators {
+        display: block;
+    }
+}
+
+/* ======================= Product Page End ======================= */
+
+/* ======================= About Page ======================= */
+.logo-container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.banner-logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (min-width: 768px) {
+    .banner-logo {
+        width: 500px;
+    }
+}
+
+.company {
+    text-align: center;
+}
+
+.company h1 {
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.company p {
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 80px;
+}
+
+.team {
+    text-align: center;
+    position: relative;
+}
+
+.team .team-heading {
+
+}
+
+.team h3 {
+    margin-bottom: 20px;
+}
+
+.team img {
+    width: 380px;
+    height: 380px;
+}
+
+.team a {
+    cursor: pointer;
+}
+
+.team a:hover {
+    text-decoration: none
+}
+
+.team span.text-color-grey.lead {
+    display: block;
+    margin-bottom: 0;
+}
+
+.team a.icon {
+    font-size: 40px;
+}
+
+.team .col {
+    text-align: center;
+}
+
+.team .col:last-of-type {
+    margin-bottom: 40px;
+}
+
+.team .bg-image {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 330px;
+    background-image: url('../images/HelpWear_Banner_04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.team .bg-overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 330px;
+    background-color:rgba(69,171,200, 0.9);
+}
+
+.team span.lead {
+    color: #8D8D8F;
+}
+.team .thumbnail-img {
+    margin-top: 40px;
+    border-radius: 380px;
+}
+
+@media (min-width: 992px) {
+    .team {
+        min-height: 600px;
+    }
+    .team .team-heading {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        top: 330px;
+        margin-top: 35px;
+    }
+
+    .team .col:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/* ======================= About Page End ======================= */
+
+/* ======================= Media Page ======================= */
+
+.media-social .social-icons {
+    position: relative;
+    top: -20px;
+}
+
+.media-social .social-icons li {
+    float: right;
+}
+
+.media-social .social-icons a {
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.media-card-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.media-card-container .caption a:hover{
+   text-decoration: none;
+}
+
+.media-card-container .thumbnail {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    width: 315px;
+    height: 380px;
+    position: relative;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(100,100,100,0.75);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(100,100,100,0.75);
+    box-shadow: 5px 5px 20px 0px rgba(100,100,100,0.75);
+}
+
+.media-card-container .thumbnail .caption {
+    padding-top: 20px;
+}
+
+.media-card-container .thumbnail .date {
+    bottom: 0;
+    bottom: 15px;
+    position: absolute;
+    right: 20px;
+    color: #bbb;
+}
+
+/* ======================= Media Page End ======================= */
+
+/* ======================= Contact Page ======================= */
+.contact {
+    background-image: url('../images/bg_contact.png');
+    background-color: #F7F7F7;
+    background-position: 50% 40%;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+/* ======================= Contact Page End ======================= */
+
+/* ======================= Career Page ======================= */
+
+.page-title-container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+}
+
+.page-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 5px solid white;
+    width: 200px;
+    padding: 20px 15px;
+    word-wrap: break-word;
+}
+
+.city-container {
+    width: 100%;
+    padding: 0;
+    height: 180px;
+    text-align: center;
+}
+
+.city-image {
+    position: relative;
+    height: 100%;
+    margin-top: 30px;
+    background-image: url("../images/toronto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.name-block {
+    position: absolute;
+    width: 100%;
+    height: 36px;
+    background-color: rgba(69, 171, 200, 0.9);
+    bottom: 0;
+    text-align: center;
+}
+
+.name-block span {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.arrow-block {
+    position: absolute;
+    width: 26px;
+    height: 36px;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgb(235, 244, 247);
+    cursor: pointer;
+}
+
+.left-arrow {
+    display: none;
+}
+
+.location {
+    position: absolute;
+    bottom: 0;
+    right: 26px;
+    width: 0;
+    height: 36px;
+    font-size: 12px;
+    background-color: rgb(235, 244, 247);
+    color: grey;
+    overflow: hidden;
+    -webkit-transition: width .5s ease;
+    -o-transition: width .5s ease;
+    transition: width .5s ease;
+}
+
+.job-post-container {
+    margin-top: 55px;
+    width: 100%;
+    border-top: 1px solid rgba(69,171,200, 0.3);
+    border-bottom: 1px solid rgba(69,171,200, 0.3);
+    text-align: center;
+}
+
+.job-post:link, .job-post:hover, .job-post:visited, .job-post:active {
+    text-decoration: none;
+}
+
+.job-title {
+    font-size: 28px;
+    color: rgba(69, 171, 200, 0.9);
+    margin: 15px 0;
+}
+
+.job-info-block {
+    margin-bottom: 10px;
+    font-weight: 350;
+    text-align: center;
+    line-height: 1;
+}
+
+.job-info {
+    display: inline-block;
+    color: grey;
+    opacity: 0.8;
+}
+
+.job-info img {
+    width: 12px;
+    margin-top: 4px;
+    margin-right: -3px;
+}
+
+.job-info span {
+    font-size: 16px;
+}
+
+@media (min-width: 320px) {
+    .city-container {
+        width: auto;
+    }
+
+    .page-title {
+        font-size: 32px;
+        width: 600px;
+        padding: 20px 30px;
+    }
+
+    .job-info {
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 480px) {
+    .city-container {
+        width: 370px;
+    }
+
+    .job-post-container {
+        width: 450px;
+    }
+
+    .job-info {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-title {
+        font-size: 36px;
+    }
+
+    .page-title-container {
+        margin-top: 210px;
+    }
+
+    .job-post-container {
+        width: 580px;
+    }
+
+    .job-info-block {
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .location {
+        left: 370px;
+        right: auto;
+    }
+}
+
+
+/* ======================= Career Page End ======================= */
+
+/* ======================= Posting Page ======================= */
+
+.return-link {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    background-color: rgb(235, 244, 247);
+    margin-left: 0px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+.return:link, .return:hover, .return:visited, .return:active {
+    text-decoration: none;
+}
+
+.return {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(52, 168, 220);
+}
+
+.return img{
+    margin-left: -5px;
+    width: 50px;
+    height: 40px;
+}
+
+.return-link span {
+    color: rgba(69, 171, 200, 0.9);
+    font-size: 16px;
+    margin-left: 12px;
+    line-height: 40px;
+}
+
+.job-header-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    padding-bottom: 10px;
+    background-color: rgb(235, 244, 247);
+}
+
+.job-header-container table {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.job-header-container tr td {
+    display: block;
+}
+
+.job-header {
+    color: grey;
+    opacity: 0.8;
+    font-size: 16px;
+    text-align: center;
+}
+
+.job-info {
+    color: rgb(52, 168, 220);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.apply-btn-block {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.apply-job {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.apply-job img {
+    width: 160px;
+}
+
+.job-details {
+    margin-bottom: 45px;
+    word-wrap: break-word;
+}
+
+.detail-head {
+    color: rgb(52, 168, 220);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.detail {
+    color: grey;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.detail.detail-list {
+    margin-left: 15px;
+}
+
+.gap-container {
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    background-color: rgb(235, 244, 247);
+}
+
+@media (min-width: 480px) {
+    .return-link {
+        width: 265px;
+    }
+
+    .job-header-container tr td {
+        display: table-cell;
+    }
+
+    .job-header {
+        text-align: right;
+    }
+
+    .job-info {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .return-link {
+        width: 290px;
+    }
+
+    .return-link span, .job-header, .job-info, .detail-head {
+        font-size: 18px;
+    }
+
+    .apply-job img {
+        width: 180px;
+    }
+
+    .detail {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .apply-btn-block {
+        position: absolute;
+        margin-top: 0;
+        right: 20px;
+        top: 35px;
+    }
+    
+    .job-header-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .job-header-container table {
+        justify-content: left;
+    }
+
+}
+
+
+/* Application modal */
+.apply-modal-container {
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: rgba(69, 171, 200, 0.9);
+}
+
+.modal-header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px;
+}
+
+.modal-title {
+    width: 100%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.modal-body {
+    padding-top: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.modal-body table {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body tr td {
+    display: block;
+}
+
+.job-title-modal {
+    display: block;
+    font-weight: 600;
+    color: white;
+}
+
+.close-modal {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    right: 0px;
+    top: 5px;
+}
+
+.close-modal img {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.app-row {
+    height: 60px;
+}
+
+.app-row .app-label {
+    font-size: 20px;
+    color: rgb(52, 168, 220);
+    line-height: 1;
+    padding-right: 15px;
+}
+
+.app-row input {
+    border: 1px solid rgba(169, 169, 169, 0.4);
+    outline: 0;
+    background-color: rgba(244, 244, 244, 0.4);
+    height: 32px;
+    text-align: left;
+    width: auto;
+}
+
+.app-row.resume-cl input, #app-submit {
+    display: none;
+} 
+
+.app-row.resume-cl img {
+    width: 125px;
+    margin-bottom: -8px;
+    cursor: pointer;
+}
+
+.app-row.resume-cl .file-comment {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.app-submit-block {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.app-submit-block img {
+    width: 180px;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) {
+    .app-submit-block img {
+        width: 250px;
+    }
+
+    .close-modal {
+        top: auto;
+        right: 10px;
+    }
+}
+
+@media (min-width: 480px) {
+    .modal-header {
+        padding: 15px 30px;
+    }
+
+    .modal-title {
+        width: 100%;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        color: white;
+        padding-top: 0;
+    }
+
+    .job-title-modal {
+        display: inline;
+    }
+
+    .modal-body table {
+        display: table;
+    }
+
+    .modal-body tr td {
+        display: table-cell;
+    }
+
+    .close-modal img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .app-row .app-label {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .app-row .app-input, .app-row .app-file {
+        text-align: left;
+    }
+
+    .app-row input {
+        width: 150px;
+    }
+
+    .app-row.name input {
+        width: 220px;
+    }
+
+    .app-row.email input {
+        width: 300px;
+    }
+
+    .app-row.phone input {
+        width: 260px;
+    }
+
+    .app-row.resume-cl .file-comment {
+        position: absolute;
+        left: 150px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .app-submit-block img {
+        width: 340px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 700px;
+    }
+
+    .app-row .app-label {
+        font-size: 24px;
+    }
+
+    .app-row.resume-cl .file-comment {
+        left: 180px;
+    }
+
+    .app-submit-block {
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    .app-submit-block img {
+        width: 380px;
+    }
+}
+/* Application modal End */
+
+/* ======================= Posting Page End ======================= */
